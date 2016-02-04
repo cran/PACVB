@@ -1,0 +1,13 @@
+7a8fc1df2ef5d7c881fd603e7513df94 *DESCRIPTION
+47f59b2e0daebde10d8fb73412db3357 *NAMESPACE
+1859dbc6b4ccaf4b0b6718e16688a4fd *R/GD.R
+80757ef39fa70c27bd57fcc5c62ffc34 *man/GDHinge.Rd
+cab14de95a470e9f65f2682b4bba27f9 *man/GDHingeAUC.Rd
+f74b853abf3ba02cc6f3548107aeb726 *man/GDHingeAUCCxx.Rd
+be92253042fe8f8d9fb5482cb62e5693 *man/GDHingeCxx.Rd
+eb22b57da025960d130f41751a99a068 *man/PACVB-package.Rd
+265ce63537a8e886d4ccda947b1f1bbd *src/Classif.h
+d8d2eb0a49c3b425c86e4a0eb3eab485 *src/Makevars
+c0743149630b139e294467f1bb46617b *src/PAC.cpp
+24e60e654e048471cd99d1d0032f7307 *src/Random.h
+c22d1631f1637ed2f32586bcf655da90 *src/header.h

@@ -1,0 +1,5 @@
+useDynLib(PACVB)
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "rnorm")
+import(Rcpp)
+import(MASS)
