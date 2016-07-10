@@ -4,7 +4,7 @@ namespace RandomG{
 	
 using namespace std;
 using namespace arma;
-using namespace boost::random;
+//using namespace boost::random;
 
 inline int getSeed()
 {
@@ -25,8 +25,8 @@ class Random
 	public:
 	Random(distribution nd)
 	{
-		mt19937 randgen(getSeed());
-		rng=new variate_generator<mt19937,distribution >(randgen, nd);	
+		boost::random::mt19937 randgen(getSeed());
+		rng=new variate_generator<boost::random::mt19937,distribution >(randgen, nd);	
 	}
 	Random<distribution>& operator=(const Random<distribution>& X)
 	{
@@ -45,7 +45,7 @@ class Random
 //		}
 		return x;
 	}
-	variate_generator<mt19937,distribution > *rng;
+	variate_generator<boost::random::mt19937,distribution > *rng;
 };
 
 
